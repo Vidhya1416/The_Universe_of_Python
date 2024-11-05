@@ -1,0 +1,134 @@
+a={
+    "name":"vidhyu"
+}
+print(a)
+
+output:
+{'name': 'vidhyu'}
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+print(a)
+
+output:
+
+{'name': 'vidhyu', 'age': '18', 'location': 'coimbatore', 'Students': ['bala', 'kavin']}
+
+
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+print(a.keys())
+
+output:
+dict_keys(['name', 'age', 'location', 'Students'])
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+print(a.values())
+
+output:
+dict_values(['vidhyu', '18', 'coimbatore', ['bala', 'kavin']])
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+a["age"]=2
+print(a)
+
+output:
+
+{'name': 'vidhyu', 'age': 2, 'location': 'coimbatore', 'Students': ['bala', 'kavin']}
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+a["color"]="red"
+print(a)
+
+output:
+{'name': 'vidhyu', 'age': '18', 'location': 'coimbatore', 'Students': ['bala', 'kavin'], 'color': 'red'}
+
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+a.update({"age":"19"})
+print(a)
+
+
+output:
+
+{'name': 'vidhyu', 'age': '19', 'location': 'coimbatore', 'Students': ['bala', 'kavin']}
+
+
+
+
+
+a={
+    "name":"vidhyu"
+}
+print(a["name"])
+output:
+vidhyu
+
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+a.pop("age")
+print(a)
+
+output:
+
+{'name': 'vidhyu', 'location': 'coimbatore', 'Students': ['bala', 'kavin']}
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+del a["age"]
+print(a)
+
+output:
+{'name': 'vidhyu', 'location': 'coimbatore', 'Students': ['bala', 'kavin']}
+
+a={
+    "name":"vidhyu",
+    "age":"18",
+    "location":"coimbatore",
+    "Students":["bala","kavin"]
+}
+a.clear()
+print(a)
+
+output:
+
+{}
+

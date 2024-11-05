@@ -1,0 +1,30 @@
+f=open("muku.txt","w")
+f.write("mango \n")
+f.write("gova")
+content=f.read()
+print(content)
+f.close()
+f=open("muku.txt","r+")
+content=f.read()
+print(content)
+f.close()
+
+f=open("muku.txt","a")
+f.write("thangam \n")
+f.write("vishnu")
+
+f.close()
+
+
+f=open("muku.txt","a")
+f.write("thangam \n")
+f.write("vishnu")
+
+f.close()
+f=open("muku.txt","r+")
+print(f.read())
+
+f=open("muku.txt","r+")
+print(f.readline())#in this readline() function is used print the first line of the file content.
+output:
+vidhya

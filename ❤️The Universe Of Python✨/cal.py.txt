@@ -1,0 +1,17 @@
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+choose=input("add/sub/mul/div:")
+if choose=="add":
+    print("Addition")
+    print(a+b)
+elif choose=="sub":
+    print("Subtraction")
+    print(a-b)
+elif choose=="mul":
+    print("Multiplication")
+    print(a*b)
+elif choose=="div":
+    print("Division")
+    print(a/b)
+else:
+    print("Invalid")

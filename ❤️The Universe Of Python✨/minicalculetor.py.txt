@@ -1,0 +1,13 @@
+A=int(input("Enter the first number :"))
+B=int(input("Enter the second number :"))
+choose=input("add/sub/mul/div:")
+if(choose=="add"):
+    print(A+B)
+elif(choose=="sub"):
+    print(A-B)
+elif(choose=="mul"):
+    print(A*B)
+elif(choose=="div"):
+    print(A/B)
+else:
+    print("You type a different spelling ")

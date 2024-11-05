@@ -1,0 +1,9 @@
+def myname(first,last,mid=" "):
+    first_name=first
+    last_name=last
+    full_name=f"{first_name}{mid}{last_name}"
+    return full_name.title()
+first_name=input("Enter your first name:")
+last_name=input("Eneter your last name:")
+mainin=myname(first_name,last_name)
+print(mainin)

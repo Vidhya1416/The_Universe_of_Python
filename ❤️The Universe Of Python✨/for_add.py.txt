@@ -1,0 +1,11 @@
+s=[]
+count=0
+for i in range(1,11):
+    num=int(input("Enter a number:"))
+    s.append(num)
+
+print(s)
+for j in s:
+    count +=j
+print("Toatal mark is:",count)
+print("Average is:",count/10)

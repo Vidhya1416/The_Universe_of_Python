@@ -1,0 +1,11 @@
+s_username="vi"
+s_password="555"
+def validate(uname,upass):
+    if(uname==s_username)and(upass==s_password):
+        return "Successfully login"
+    else:
+        return "your username or password is invalid"
+name=input("Enter your username:")
+password=input("Enter your password: ")
+value1=validate(name,password)
+print(value1)
