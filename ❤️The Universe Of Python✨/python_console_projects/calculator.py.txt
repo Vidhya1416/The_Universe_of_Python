@@ -1,0 +1,43 @@
+class Calculator:
+    def __init__(self, a1, b1, c1):
+        self.a = a1
+        self.b = b1
+        self.c = c1
+
+    def the_main(self):
+        print("_____Calculator______")
+        user = input("Should you process on this calculator (yes/no): ")
+        if user.lower() == "yes":
+            if self.c.lower() == "add":
+                self.add()
+            elif self.c.lower() == "sub":
+                self.sub()
+            elif self.c.lower() == "mul":
+                self.mul()
+            elif self.c.lower() == "div":
+                self.div()
+            else:
+                print("Invalid operation")
+        else:
+            print("Exiting the calculator")
+
+    def add(self):
+        print("The addition of two numbers is", self.a + self.b)
+
+    def sub(self):
+        print("The subtraction of two numbers is", self.a - self.b)
+
+    def mul(self):
+        print("The multiplication of two numbers is", self.a * self.b)
+
+    def div(self):
+        print("The division of two numbers is", self.a / self.b)
+
+a1 = int(input("Enter a first number: "))
+b1 = int(input("Enter a second number: "))
+print("Select the operator")
+print("-------------------")
+print("add/sub/mul/div")
+c1 = input("Enter an operator: ")
+obj1 = Calculator(a1, b1, c1)
+obj1.the_main()
